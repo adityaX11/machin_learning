@@ -2,6 +2,18 @@ import streamlit as st
 import pickle
 import pandas as pd
 
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: 		#ffe6f0;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+
 teams = ['Sunrisers Hyderabad',
  'Mumbai Indians',
  'Royal Challengers Bangalore',
